@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+.root{
+--Lightred: hsl(356, 100%, 66%);
+--Verylightred: hsl(355, 100%, 74%);
+--Verydarkblue: hsl(208, 49%, 24%);
+--White: hsl(0, 0%, 100%);
+--Grayishblue: hsl(240, 2%, 79%);
+--Verydarkgrayishblue: hsl(207, 13%, 34%);
+--Verydarkblackblue: hsl(240, 10%, 16%);
+/* (CTA text)
+(CTA hover background)
+(headings)
+(text)
+(footer text)
+(body copy)
+(footer background) */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    background-color: hsl(355, 100%, 74%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 30px;
+    color: white;
+}
+.headerimg{
+    padding-left: 50px;
+}
+.tab li{
+    display: inline;
+   list-style: none;
+   margin-right: 30px;
+}
+.button{
+    margin-left: -30%;
+    padding: 10px 25px;
+    border-radius: 40px;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.intro-sec{
+    background-image: url(./Images/bg-pattern-intro-desktop.svg);
+    background-color: hsl(355, 100%, 74%);
+    background-size: 110% 170%;
+    height: 250px;
+    border-radius: 0px 0px 0px 100px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+.intro-sec h1{
+    font-size: 40px;
+}
+.button-sec{
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+}
+
+.learn-more{
+    padding: 10px 25px;
+    border-radius: 40px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(356, 100%, 66%);
+}
+/* -----------------main section------------------ */
+.first-div h2{
+    margin-top: 200px;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -150px;
+    font-size: 35px;
+    color: hsl(208, 49%, 24%);
+}
+.frst-splited{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: baseline;
+    column-gap: 0%;
+    margin-left: 50px;
+    border-top: 100px;
+    font-family: 'Overpass', sans-serif;
+}
+.left-side{
+    width: 40%;
+    height: 900px;
+    overflow: hidden;
+    margin-left: 350px;
+}
+.right-side{
+    width: 30%;
+    padding-left: 100px;
+}
+.right-side h4{
+    color: hsl(208, 49%, 24%);
+    font-size: larger;
+}
+.second-splited{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: baseline;
+    column-gap: 0%;
+    margin-left: 0px;
+    border-top: 100px;
+    background: linear-gradient(to right,hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    color: white;
+    height: 400px;
+    border-radius: 0px 100px 0px 100px;
+    margin-bottom: 100px;
+    font-family: 'Overpass', sans-serif;
+}
+.left-side-sec{
+    height: 550px;
+    width: 40%;
+    padding-left: 150px;
+}
+.right-side-sec{
+    width: 40%;
+}
+.right-side-sec h4{
+    font-size: 20px;
+}
+.right-side-sec p{
+    color: hsl(240, 2%, 79%);
+}
+.thrid-splited-sec{
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: baseline;
+    column-gap: 0%;
+    border-top: 100px;
+
+}
+.left-side-third img{
+    height: 700px;
+    width: 200%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    margin-left: -320px;
+}
+.right-side-third{
+    width: 40%;
+    padding-left: 250px;
+    font-family: 'Overpass', sans-serif;
+}
+.right-side-third h4{
+    color: hsl(208, 49%, 24%);
+    font-size: 20px;
+}
+/* ------------Footer section----------------- */
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    margin-top: 100px;
+    background-color: hsl(240, 10%, 16%);
+    color: hsl(240, 2%, 79%);
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 0px 100px 0px 0px;
+    padding-bottom: 30px;
+}
+footer li{
+    list-style: none;
+    padding-bottom: 10px;
+    font-size: small;
+}
